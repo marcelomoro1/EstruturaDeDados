@@ -1,0 +1,4 @@
+Fazer em java; Criar uma classe Personagem com nome, energia (0-5), categoria (imovel, movel). Fazer um menu para cadastrar personagem
+Listar Personagem, Remover Personagem e Sair
+Utilizar o equals para comparar os objetos pelo atributo nome para evitar duplicidade na lista.
+Colocar os objetos em uma lista e ordenar pelo nome
