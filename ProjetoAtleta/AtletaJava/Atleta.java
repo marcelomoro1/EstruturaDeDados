@@ -1,4 +1,4 @@
-package Atleta;
+package AtletaJava;
 
 import java.util.Objects;
 
