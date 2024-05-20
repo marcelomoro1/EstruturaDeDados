@@ -43,11 +43,12 @@ public class Main {
 		HashSet<Celula> tabelaHash = new HashSet<Celula>();
 		
 		//Gera hash a partir de matriz normal
+		System.out.println("Gerando hash set a partir da matriz");
 		Celula.transformaMatrizHash(matrizEspecial, tabelaHash);
 		Celula.exibeMatrizHash(tabelaHash);
 		
 		//Gera matriz normal a partir de hash
-		System.out.println();
+		System.out.println("Gerando matriz a partir do hash set");
 		int outraMatriz[][] = new int[Celula.qtdLinhas][Celula.qtdColunas];
 		Celula.transformaHashMatriz(tabelaHash, outraMatriz);
 		ExemploMatrizEspecialTratada.exibir(outraMatriz);
